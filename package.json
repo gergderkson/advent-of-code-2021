@@ -1,0 +1,20 @@
+{
+  "name": "advent20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "day": "day"
+  },
+  "scripts": {
+    "test": "run(){ ava $1/test.js; }; run",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "lodash": "^4.17.21",
+    "ramda": "^0.27.1"
+  }
+}
