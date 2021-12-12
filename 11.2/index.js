@@ -42,7 +42,7 @@ const main = (input) => {
 
     const hasFlashed = (x, y) => flashed.indexOf([x,y].join(',')) !== -1;
     
-    while(input.flat().filter(v => v !== 0).length > 0 ){
+    while(true){
 
         if(flashed.length === 100){
             break;
